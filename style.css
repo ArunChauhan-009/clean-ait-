@@ -1,0 +1,134 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f9f9f9;
+    color: #4f4f54;
+}
+
+/* Header Styling */
+header {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('clean_india_background.jpg') no-repeat center center/cover;
+    color: white;
+    padding: 60px 0;
+    text-align: center;
+}
+
+header .hero {
+    padding: 50px 20px;
+}
+
+header h1 {
+    font-size: 3rem;
+    color: #403791; /* Bright yellow from the Indian flag */
+}
+
+header p {
+    font-size: 1.5rem;
+    margin-top: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 10px 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+    padding: 10px;
+    transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #27ae60; /* Green from the Indian flag */
+    border-radius: 5px;
+}
+
+/* Section Styling */
+.section {
+    padding: 50px 20px;
+    margin: 20px auto;
+    max-width: 1100px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    color: #27ae60; /* Green color for emphasis */
+    margin-bottom: 30px;
+}
+
+/* About Section Styling */
+.content {
+    display: flex;
+    align-items: center;
+    font-family: "Raleway", sans-serif;
+    gap: 20px;
+    font-size: 20px;
+}
+
+.content img {
+    max-width: 50%;
+    border-radius: 10px;
+}
+
+/* Cleanliness Tips Grid */
+.tips-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.tip {
+    text-align: center;
+    background-color: #f0f8ff;
+    padding: 25px;
+    border-radius: 30px;
+    box-shadow: 0 16px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+.tip:hover {
+    transform: scale(1.05);
+}
+
+.tip img {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 20px;
+}
+
+footer a {
+    color: #3b3939;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
